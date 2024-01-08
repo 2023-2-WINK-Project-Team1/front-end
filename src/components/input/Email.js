@@ -16,6 +16,7 @@ const InputDiv = styled.input`
   border-bottom: 1px solid #e6e6e6;
   outline: none;
   color: black;
+  margin-bottom:40px;
   ::placeholder {
     color: #9c9c9c;
   }
@@ -47,12 +48,12 @@ const ToggleButton = styled.button`
 
 const ErrorMessage = styled.div`
   color: red;
-  font-size: 8px;
+  font-size: 10px;
 `;
 
 const SuccessMessage = styled.div`
   color: black;
-  font-size: 8px;
+  font-size: 9px;
 `;
 
 function Email() {
